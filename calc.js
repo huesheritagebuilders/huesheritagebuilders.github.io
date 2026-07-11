@@ -16,8 +16,8 @@ function calculate() {
     const dryVol = wetVol * 1.54 * 1.05; // 1.54 shrink + 5% waste
     
     const cementM3 = (cPart/totalParts) * dryVol;
-    const sandM3 = (sPart/totalParts) * dryVol;
-    const gravM3 = (gPart/totalParts) * dryVol;
+    const sandM3 = (sPart/totalParts) * dryVol * 0.313547;
+    const gravM3 = (gPart/totalParts) * dryVol * 0.313547;
     const bags = cementM3 / 0.035;
 
     // Block Math
