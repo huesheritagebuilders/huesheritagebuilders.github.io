@@ -2,7 +2,7 @@
   
         body { font-family: 'Segoe UI', sans-serif; background: #ecf0f1; padding: 15px; }
         
-        .app-container { max-width: 600px; margin: auto; background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+        .app-container { max-width: 600px; margin:6.25rem auto; background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
         
         .header { background: var(--primary); color: black; padding: 20px; text-align: cente;
         display :flex; }
